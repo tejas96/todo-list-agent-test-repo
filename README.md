@@ -7,6 +7,6 @@ A small todo app in plain Node.js and browser JavaScript. No dependencies.
 
 ## Structure
 
-- `src/todos.js` — todo logic (add, toggle, save, load). Shared by the browser and the tests.
+- `src/todos.js` — todo logic (add with optional due date, toggle, delete, sort by due date, save, load). Shared by the browser and the tests.
 - `public/` — the page (`index.html`, `app.js`, `style.css`).
 - `server.js` — a tiny static file server.
